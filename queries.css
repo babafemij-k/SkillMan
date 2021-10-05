@@ -1,0 +1,115 @@
+/* Tablets and under */
+
+@media (max-width: 768px) {
+  .grid,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase {
+    height: auto;
+    text-align: center;
+  }
+
+  .image {
+    width: 600px;
+    margin-left: 80px;
+  }
+
+  /* Changes the service sections from side-by-side orientation to each taking its own line. Align text to the centre */
+  .stats .flex {
+    flex-direction: column;
+  }
+
+  .stats {
+    text-align: center;
+  }
+
+  /* Makes sure each stat section does not exceed the width of the parent */
+  .stat {
+    width: 100%;
+    padding-right: 80px;
+  }
+
+  /* Moves the circle to the centre of the card */
+  .circle {
+    background-color: transparent;
+    border: 3px solid #9867c5;
+    height: 90px;
+    position: relative;
+    top: -30px;
+    left: 330px;
+    border-radius: 50%;
+    width: 90px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 500px) {
+  .navbar {
+    height: 100px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  /* When hovered on, retain white color and change border to black */
+  .navbar a:hover {
+    color: white;
+    border-bottom: 2px solid black;
+  }
+
+  .navbar ul {
+    background: rgb(14, 14, 14);
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+
+  /* Align text to centre */
+  .showcase {
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .showcase-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .little-info {
+    font-size: 13px;
+  }
+
+  /* Reduce image width */
+  .image {
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 70px;
+  }
+
+  .stat {
+    margin-bottom: 40px;
+  }
+
+  .features {
+    margin-top: -90px;
+  }
+
+  /* Move circle once again */
+  .circle {
+    background-color: transparent;
+    border: 3px solid #9867c5;
+    height: 90px;
+    position: relative;
+    top: -30px;
+    left: 150px;
+    border-radius: 50%;
+    width: 90px;
+  }
+
+  .card {
+    margin: 20px 40px;
+  }
+}
