@@ -113,3 +113,42 @@
     margin: 20px 40px;
   }
 }
+
+@media (min-width: 375px) {
+  .showcase {
+    text-align: center;
+  }
+
+  .image {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .stat {
+    padding: 0;
+    width: 100%;
+  }
+
+  .flex {
+    align-items: center;
+  }
+
+  .circle {
+    background-color: transparent;
+    border: 3px solid #9867c5;
+    height: 90px;
+    position: relative;
+    top: -30px;
+    left: 100px;
+    border-radius: 50%;
+    width: 90px;
+  }
+
+  .testimonial {
+    margin-top: -150px;
+  }
+}
